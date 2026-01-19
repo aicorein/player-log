@@ -1,0 +1,7 @@
+{
+  "command.player-log.player_only": "Command %s can only be run by a player.",
+  "command.player-log.version_str": "player-log mod version %s.",
+  "command.player-log.message.too_long": "The log message is too long! Maximum length is %s characters.",
+  "command.player-log.message.rate_limited": "You are sending messages too quickly. Please try again later.",
+  "command.player-log.config.reloaded": "player-log mod config reloaded."
+}

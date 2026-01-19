@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "player-log",
+	"version": "${version}",
+	"name": "Player Log",
+	"description": "A Fabric mod that allows players to send private messages to the server console.",
+	"authors": [
+		"aicorein"
+	],
+	"contact": {
+		"homepage": "https://github.com/aicorein/player-log",
+		"sources": "https://github.com/aicorein/player-log"
+	},
+	"license": "MIT",
+	"icon": "assets/player-log/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"top.miku.playerlog.PlayerLog"
+		],
+		"client": [
+			"top.miku.playerlog.PlayerLogClient"
+		]
+	},
+	"mixins": [
+		"player-log.mixins.json",
+		{
+			"config": "player-log.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
