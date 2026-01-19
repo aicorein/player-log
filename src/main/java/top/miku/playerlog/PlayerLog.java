@@ -6,7 +6,7 @@ import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.commands.Commands;
 import net.minecraft.server.level.ServerPlayer;
-
+import net.minecraft.server.permissions.Permissions;
 import top.miku.playerlog.modUtils.ServerSideTranslator;
 import top.miku.playerlog.suggestions.LogHistorySuggestionProvider;
 import top.miku.playerlog.config.ConfigManager;
@@ -45,6 +45,7 @@ public class PlayerLog implements ModInitializer {
 					)
 				)
 				.then(Commands.literal("reload")
+					.requires(source -> source.permissions().hasPermission(Permissions.COMMANDS_OWNER))
 					.executes(CommandExecutor::reloadConfig)
 				)
 			);

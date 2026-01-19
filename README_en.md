@@ -39,9 +39,10 @@ player-log is a Fabric mod that enables players to send messages directly to the
 * Function: Sends a message to the server console. (This command maintains a history of sent messages for the user; defaults to 10 entries, configurable).
 * Limitation: Message length must not exceed 128 characters (configurable).
 
-**Config Reload Command**: `/playerlog reload`
+**Config Reload Command**: `/playerlog reload` (Needs permission level 4 - server operator)
 
 * Function: Hot reloads the configuration. (Note: Some configuration changes, such as message history size, may require re-joining the server to take full effect).
+* Limitation: Only available to server operators, requires permission level 4.
 
 #### Message Format 🗒️
 
