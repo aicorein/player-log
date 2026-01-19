@@ -48,7 +48,7 @@ player-log is a Fabric mod that enables players to send messages directly to the
 The format of messages sent to the server console is as follows:
 
 ```text
-[player-log] <player_name>: <message>
+[player-log] <player_name> <message>
 ```
 
 #### Multi-Language Support 🌐
