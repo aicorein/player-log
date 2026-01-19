@@ -61,7 +61,7 @@ Player Log 是一个 Fabric 模组，允许玩家通过私密的方式向服务�
 
 配置文件将在首次运行后自动生成：`config/player-log/config.json`。
 
-```json
+```json5
 {
     // 单次命令发送消息的最大长度
     "maxLogMessageLength": 128,

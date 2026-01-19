@@ -66,7 +66,7 @@ For quick usage, the mod provides a short command alias `/s`, which can be used 
 
 The configuration file is automatically generated after the first run: `config/player-log/config.json`.
 
-```json
+```json5
 {
     // Maximum length for a single command message
     "maxLogMessageLength": 128,
