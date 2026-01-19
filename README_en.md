@@ -1,8 +1,8 @@
 <div align="center">
 
-![Player Log Icon](src/main/resources/assets/player-log/icon.png)
+![player-log Icon](src/main/resources/assets/player-log/icon.png)
 
-# Player Log 📨
+# player-log
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ### Introduction 🎯
 
-Player Log is a Fabric mod that enables players to send messages directly to the server console in a private manner. Unlike default chat messages which are visible to all players, this mod offers a discreet alternative. This is particularly useful for external tools that rely on reading the server's standard input (stdin), such as [melobot-protocol-mcpm](https://github.com/aicorein/melobot-protocol-mcpm).
+player-log is a Fabric mod that enables players to send messages directly to the server console in a private manner. Unlike default chat messages which are visible to all players, this mod offers a discreet alternative. This is particularly useful for external tools that rely on reading the server's standard input (stdin), such as [melobot-protocol-mcpm](https://github.com/aicorein/melobot-protocol-mcpm).
 
 ### Use Cases 🔒
 

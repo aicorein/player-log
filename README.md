@@ -1,8 +1,8 @@
 <div align="center">
 
-![Player Log Icon](src/main/resources/assets/player-log/icon.png)
+![player-log Icon](src/main/resources/assets/player-log/icon.png)
 
-# Player Log 📨
+# player-log
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ### 介绍 🎯
 
-Player Log 是一个 Fabric 模组，允许玩家通过私密的方式向服务端控制台发送消息。相比于使用默认聊天栏消息（会暴露给所有玩家），该模组提供了一种隐私的替代方案。这对于需要读取服务端标准输入的外部工具（如 [melobot-protocol-mcpm](https://github.com/aicorein/melobot-protocol-mcpm)）特别有用。
+player-log 是一个 Fabric 模组，允许玩家通过私密的方式向服务端控制台发送消息。相比于使用默认聊天栏消息（会暴露给所有玩家），该模组提供了一种隐私的替代方案。这对于需要读取服务端标准输入的外部工具（如 [melobot-protocol-mcpm](https://github.com/aicorein/melobot-protocol-mcpm)）特别有用。
 
 ### 应用场景 🔒
 
